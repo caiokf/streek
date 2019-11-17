@@ -11,5 +11,11 @@
     "test": "CI=true lerna run test",
     "build-lib": "lerna run build-lib",
     "build-web": "lerna run build"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lerna": "^3.18.4"
   }
 }
