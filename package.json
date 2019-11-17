@@ -1,0 +1,15 @@
+{
+  "name": "streek",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Caio Kinzel Filho <caiokf@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "eslint": "eslint packages/** --ignore-path .eslintignore",
+    "start": "lerna run start --parallel",
+    "serve": "lerna run serve --parallel",
+    "test": "CI=true lerna run test",
+    "build-lib": "lerna run build-lib",
+    "build-web": "lerna run build"
+  }
+}
