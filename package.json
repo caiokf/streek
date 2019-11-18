@@ -10,7 +10,6 @@
     "start": "lerna run start --parallel",
     "serve": "lerna run serve --parallel",
     "test": "CI=true lerna run test",
-    "build-lib": "lerna run build-lib",
     "build-web": "lerna run build"
   },
   "workspaces": [
